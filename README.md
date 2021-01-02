@@ -28,3 +28,9 @@ This will give you an `ExecutionResult` object, with the following structure
         - `cond_span`: `(i, j)` for the first and last tokens contained in the conditional expression if one exists or `None` otherwise
         - `cond_value`: the value of the conditional expression or number of remaining iterations
         - `success`: False if the action failed or the loop repeats forever
+
+## Errors
+
+  - `ExecutorSyntaxException`: occurs if the program passed in has invalid syntax
+  - `ExecutorRuntimeException`: occurs if the program passed in has an error in executing and
+      `record_trace=False` is passed

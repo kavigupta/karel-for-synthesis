@@ -1,2 +1,2 @@
 
-from .executor import execute
+from .executor import execute, ExecutorSyntaxException, ExecutorRuntimeException
