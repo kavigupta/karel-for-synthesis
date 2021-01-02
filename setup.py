@@ -19,5 +19,5 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires=">=3.6",
-    install_requires=["attrs==20.3.0"],
+    install_requires=["attrs==20.3.0", "numpy", "pylru==1.2.0"],
 )
