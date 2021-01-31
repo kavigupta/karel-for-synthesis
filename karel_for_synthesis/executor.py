@@ -11,17 +11,9 @@ from .parser_for_synthesis import (
     KarelSyntaxError,
     TimeoutError,
 )
-from .errors import Timeout
+from .errors import Timeout, ExecutorSyntaxException, ExecutorRuntimeException
 
 ExecutionResult = collections.namedtuple("ExecutionResult", ["result", "trace"])
-
-
-class ExecutorSyntaxException(Exception):
-    pass
-
-
-class ExecutorRuntimeException(Exception):
-    pass
 
 
 KarelTrace = collections.namedtuple("KarelTrace", ["grids", "events"])

@@ -13,6 +13,8 @@ from karel_for_synthesis import execute
 result = execute(program, input_grid, record_trace=True)
 ```
 
+You can also parse and unparse programs by using the `parse` and `unparse` commands.
+
 ## Outputs
 
 This will give you an `ExecutionResult` object, with the following structure

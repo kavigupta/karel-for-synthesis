@@ -15,3 +15,11 @@ class Timeout:
 
 class KarelSyntaxError(Exception):
     pass
+
+
+class ExecutorSyntaxException(Exception):
+    pass
+
+
+class ExecutorRuntimeException(Exception):
+    pass
