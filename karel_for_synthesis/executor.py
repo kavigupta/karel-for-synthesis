@@ -178,5 +178,8 @@ class KarelExecutor(object):
         return ExecutionResult(field, trace)
 
 
+_standard_executor = KarelExecutor()
+
+
 def execute(program, grid, record_trace=False):
-    return KarelExecutor().execute(program, grid, record_trace=record_trace)
+    return _standard_executor.execute(program, grid, record_trace=record_trace)
