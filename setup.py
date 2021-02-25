@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="karel-for-synthesis",
-    version="1.2.0",
+    version="1.3.0",
     author_email="karel_for_synthesis@kavigupta.org",
     description="Karel Parser and Executor useful for program synthesis.",
     long_description=long_description,
