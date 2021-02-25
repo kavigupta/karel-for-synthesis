@@ -7,3 +7,4 @@ env
 dist
 build
 _parsetab.py
+.idea
